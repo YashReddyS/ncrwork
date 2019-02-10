@@ -5,18 +5,17 @@ int main()
 {
    int a,b;
     scanf("%x",&a);
-//    scanf("%d",&b);
-//
-//    b2h(a);
-    h2b(b);
+    scanf("%d",&b);
+
+   b2h(b);
+    h2b(a);
 }
 
 void h2b(int h) {
 	if (h == 0x0)
 		return;
 	h2b(h / 16);
-	printf("\n%d",h % 16);
-	printf("\n%d",hex2bin(h % 16));
+	printf("%d",hex2bin(h % 16));
 }
 
 int hex2bin(int h) {
@@ -38,4 +37,14 @@ int hex2bin(int h) {
 	case 14:return 1110;
 	case 15:return 1111;
 	}
+}
+
+void b2h(int n){
+    int sum = 0,b=1;
+    while(n>0){
+            sum = sum + b*n%10;
+            n = n/10;
+            b = b * 2;
+    }
+    printf("%x\n",sum);
 }
