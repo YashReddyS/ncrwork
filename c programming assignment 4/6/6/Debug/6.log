@@ -1,0 +1,9 @@
+﻿  Source.c
+c:\users\dell\desktop\ncrwork\c programming assignment 4\6\6\source.c(6): warning C4473: 'scanf_s' : not enough arguments passed for format string
+  c:\users\dell\desktop\ncrwork\c programming assignment 4\6\6\source.c(6): note: placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+  c:\users\dell\desktop\ncrwork\c programming assignment 4\6\6\source.c(6): note: the missing variadic argument 2 is required by format string '%s'
+  c:\users\dell\desktop\ncrwork\c programming assignment 4\6\6\source.c(6): note: this argument is used as a buffer size
+c:\users\dell\desktop\ncrwork\c programming assignment 4\6\6\source.c(7): warning C4013: 'rev' undefined; assuming extern returning int
+c:\users\dell\desktop\ncrwork\c programming assignment 4\6\6\source.c(13): warning C4033: 'rev' must return a value
+c:\users\dell\desktop\ncrwork\c programming assignment 4\6\6\source.c(17): warning C4716: 'rev': must return a value
+  6.vcxproj -> C:\Users\DELL\Desktop\ncrwork\c programming assignment 4\6\Debug\6.exe

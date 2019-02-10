@@ -1,0 +1,14 @@
+﻿  Source.c
+c:\users\dell\desktop\ncrwork\c programming assignment 4\9\9\source.c(9): warning C4473: 'scanf_s' : not enough arguments passed for format string
+  c:\users\dell\desktop\ncrwork\c programming assignment 4\9\9\source.c(9): note: placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+  c:\users\dell\desktop\ncrwork\c programming assignment 4\9\9\source.c(9): note: the missing variadic argument 2 is required by format string '%s'
+  c:\users\dell\desktop\ncrwork\c programming assignment 4\9\9\source.c(9): note: this argument is used as a buffer size
+c:\users\dell\desktop\ncrwork\c programming assignment 4\9\9\source.c(10): warning C4473: 'scanf_s' : not enough arguments passed for format string
+  c:\users\dell\desktop\ncrwork\c programming assignment 4\9\9\source.c(10): note: placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+  c:\users\dell\desktop\ncrwork\c programming assignment 4\9\9\source.c(10): note: the missing variadic argument 2 is required by format string '%s'
+  c:\users\dell\desktop\ncrwork\c programming assignment 4\9\9\source.c(10): note: this argument is used as a buffer size
+c:\users\dell\desktop\ncrwork\c programming assignment 4\9\9\source.c(12): warning C4013: 'any' undefined; assuming extern returning int
+c:\users\dell\desktop\ncrwork\c programming assignment 4\9\9\source.c(23): warning C4047: 'function': 'const char *' differs in levels of indirection from 'char'
+c:\users\dell\desktop\ncrwork\c programming assignment 4\9\9\source.c(23): warning C4024: 'strcmp': different types for formal and actual parameter 1
+c:\users\dell\desktop\ncrwork\c programming assignment 4\9\9\source.c(23): warning C4024: 'strcmp': different types for formal and actual parameter 2
+  9.vcxproj -> C:\Users\DELL\Desktop\ncrwork\c programming assignment 4\9\Debug\9.exe

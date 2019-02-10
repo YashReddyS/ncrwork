@@ -1,0 +1,13 @@
+﻿  Source.c
+c:\users\dell\desktop\ncrwork\c programming assignment 4\10\10\source.c(9): warning C4473: 'scanf_s' : not enough arguments passed for format string
+  c:\users\dell\desktop\ncrwork\c programming assignment 4\10\10\source.c(9): note: placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+  c:\users\dell\desktop\ncrwork\c programming assignment 4\10\10\source.c(9): note: the missing variadic argument 2 is required by format string '%s'
+  c:\users\dell\desktop\ncrwork\c programming assignment 4\10\10\source.c(9): note: this argument is used as a buffer size
+c:\users\dell\desktop\ncrwork\c programming assignment 4\10\10\source.c(11): warning C4473: 'scanf_s' : not enough arguments passed for format string
+  c:\users\dell\desktop\ncrwork\c programming assignment 4\10\10\source.c(11): note: placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+  c:\users\dell\desktop\ncrwork\c programming assignment 4\10\10\source.c(11): note: the missing variadic argument 2 is required by format string '%c'
+  c:\users\dell\desktop\ncrwork\c programming assignment 4\10\10\source.c(11): note: this argument is used as a buffer size
+  Generating code
+  All 8 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  10.vcxproj -> C:\Users\DELL\Desktop\ncrwork\c programming assignment 4\10\Release\10.exe

@@ -1,0 +1,6 @@
+﻿  Source.c
+c:\users\dell\desktop\ncrwork\c programming assignment 4\5\5\source.c(6): warning C4473: 'scanf_s' : not enough arguments passed for format string
+  c:\users\dell\desktop\ncrwork\c programming assignment 4\5\5\source.c(6): note: placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+  c:\users\dell\desktop\ncrwork\c programming assignment 4\5\5\source.c(6): note: the missing variadic argument 2 is required by format string '%s'
+  c:\users\dell\desktop\ncrwork\c programming assignment 4\5\5\source.c(6): note: this argument is used as a buffer size
+  5.vcxproj -> C:\Users\DELL\Desktop\ncrwork\c programming assignment 4\5\Debug\5.exe

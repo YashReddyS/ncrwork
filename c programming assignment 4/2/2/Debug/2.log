@@ -1,0 +1,4 @@
+﻿  Source.c
+c:\users\dell\desktop\ncrwork\c programming assignment 4\2\2\source.c(5): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'char **'
+c:\users\dell\desktop\ncrwork\c programming assignment 4\2\2\source.c(6): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'char **'
+  2.vcxproj -> C:\Users\DELL\Desktop\ncrwork\c programming assignment 4\2\Debug\2.exe
