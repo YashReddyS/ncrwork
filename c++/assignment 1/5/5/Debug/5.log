@@ -1,0 +1,6 @@
+﻿  Source.cpp
+c:\users\dell\desktop\ncrwork\c++\5\5\source.cpp(62): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\dell\desktop\ncrwork\c++\5\5\source.cpp(63): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\dell\desktop\ncrwork\c++\5\5\source.cpp(69): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\dell\desktop\ncrwork\c++\5\5\source.cpp(70): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  5.vcxproj -> C:\Users\DELL\Desktop\ncrwork\c++\5\Debug\5.exe
