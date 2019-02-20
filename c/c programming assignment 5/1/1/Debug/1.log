@@ -1,0 +1,4 @@
+﻿  Source.c
+c:\users\dell\desktop\ncrwork\c\c programming assignment 5\1\1\source.c(12): warning C4013: 'getch' undefined; assuming extern returning int
+c:\users\dell\desktop\ncrwork\c\c programming assignment 5\1\1\source.c(7): warning C4101: 't2': unreferenced local variable
+  1.vcxproj -> C:\Users\DELL\Desktop\ncrwork\c\c programming assignment 5\1\Debug\1.exe
