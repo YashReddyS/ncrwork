@@ -4,7 +4,7 @@
 int main() {
 
 	
-	char s1[10], s2[10];
+	char s1[20], s2[20];
 
 	scanf_s("%s", s1);
 	scanf_s("%s", s2);
@@ -20,7 +20,7 @@ int any(char *s1, char *s2) {
 	int i,j;
 	for (i = 0; s1[i] != '\0'; i++) {
 		for (j = 0; s2[j] != '\0'; j++) {
-			if (strcmp(s1[i], s2[j]) == 0)
+			if (strcmp(s1+i, s2+j) == 0)
 				return i;
 		}
 	}
