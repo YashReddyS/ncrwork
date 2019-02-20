@@ -1,0 +1,5 @@
+﻿  Source.cpp
+c:\users\dell\desktop\ncrwork\data structures\4\4\source.cpp(98): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\desktop\ncrwork\data structures\4\4\source.cpp(97): warning C4101: 'c2': unreferenced local variable
+c:\users\dell\desktop\ncrwork\data structures\4\4\source.cpp(91): warning C4715: 'getVal': not all control paths return a value
+  4.vcxproj -> C:\Users\DELL\Desktop\ncrwork\data structures\4\Debug\4.exe

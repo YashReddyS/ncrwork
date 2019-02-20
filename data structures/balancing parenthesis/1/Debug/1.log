@@ -1,0 +1,5 @@
+﻿  Source.cpp
+c:\users\dell\desktop\ncrwork\c programming assignment\1\1\source.cpp(69): warning C4305: 'return': truncation from 'int' to 'char'
+c:\users\dell\desktop\ncrwork\c programming assignment\1\1\source.cpp(69): warning C4309: 'return': truncation of constant value
+c:\users\dell\desktop\ncrwork\c programming assignment\1\1\source.cpp(109): warning C4018: '<': signed/unsigned mismatch
+  1.vcxproj -> C:\Users\DELL\Desktop\ncrwork\data structures\Debug\1.exe

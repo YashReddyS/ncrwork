@@ -1,0 +1,4 @@
+﻿  Source.c
+c:\users\dell\desktop\ncrwork\c programming assignment 5\7\7\source.c(6): warning C4047: 'function': 'const char *' differs in levels of indirection from 'int'
+c:\users\dell\desktop\ncrwork\c programming assignment 5\7\7\source.c(6): warning C4024: 'fopen_s': different types for formal and actual parameter 2
+  7.vcxproj -> C:\Users\DELL\Desktop\ncrwork\c programming assignment 5\7\Debug\7.exe
