@@ -1,0 +1,114 @@
+<html>
+<head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<style>
+
+#address_header{
+color:green;
+}
+
+.sub_address_header{
+color:green;
+}
+
+#address{
+	border: 1px solid #73AD21;
+	margin: auto;
+	background-color: #eeeeee;
+}
+
+#hide{
+	float:right;
+	top = 0px;
+	right = 0px;
+}
+
+.sub_address{
+    background-color: #bbbbbb;
+	text-align:center;
+	display: inline-block;
+	border: 1px solid #73AD21;
+	width : 660px;
+	color:blue;
+} 
+
+</style>
+
+</head>
+<body>
+
+<div id = "address" >
+<h2 align = "center" id = "address_header">ADDRESS</h2>
+<div id = "present_address" class = "sub_address">
+<br>
+<h class = "sub_address_header"><b>PRESENT ADDRESS</b></h>
+<p id = "present_field" class = "sub_address_field">
+House no: <input type = "text" id = "present_house_no" ></br></br>
+Street name: <input type = "text" id = "present_street_name"></br></br>
+Landmark:<input type = "text" id = "present_landmark" ></br><br>
+State:<select id = "present_state_list" ><br>
+  <option value="hyderabad">hyderabad</option>
+  <option value="warangal">warangal</option>
+  <option value="vaizag" >vaizag</option>
+  <option value="karnool">karnool</option>
+</select>
+</p>
+</div>
+
+<div id = "permanent_address" class = "sub_address" >
+<input type = "button" value = "-" id = "hide" >
+</br>
+<h class = "sub_address_header"><b>PERMANENT ADDRESS</b></h>
+
+<p id = "permanent_field" class = "sub_address_field">
+House no:<input type = "text" id = "permanent_house_no"></br></br>
+Street name:<input type = "text" id = "permanent_street_name" ></br></br>
+Landmark:<input type = "text" id = "permanent_landmark" ><br><br>
+State:<select id = "permanent_state_list" ><br>
+  <option value="hyderabad" >hyderabad</option>
+  <option value="warangal">warangal</option>
+  <option value="vaizag" >vaizag</option>
+  <option value="karnool">karnool</option>
+</select>
+</p>
+</div>
+
+<p align = "center">
+<input type = "checkbox" value = "common address" id = "check_same_address">common address
+</p>
+</div>
+
+<script>
+
+$(document).ready(function(){
+	$("input:checkbox").click(function(){
+	
+		$("#permanent_house_no").val($("#present_house_no").val());
+		$("#permanent_street_name").val($("#present_street_name").val());
+		$("#permanent_landmark").val($("#present_landmark").val());
+		
+		$("#permanent_state_list").val($("#present_state_list option:selected").val());
+			
+	})
+	
+	$("#hide").click(function(){
+	
+		$("#permanent_field").toggle();
+		$("#present_field").toggle();
+		if($("#hide").val() == "-")
+			$("#hide").val("+");
+		else
+			$("#hide").val("-");
+			
+	});
+	
+});
+
+</script>
+
+
+
+<body>
+</html>

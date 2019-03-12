@@ -1,0 +1,51 @@
+<html>
+<head>
+
+</head>
+<body>
+
+<input type = "number" id = "first_operand"  onkeyup = "operation()"  >
+
+<select id = "operator_list" onchange = "operation()">
+  <option >+</option>
+  <option >-</option>
+  <option >*</option>
+  <option >/</option>
+</select>
+
+<input type = "number" id = "second_operand" onkeyup = "operation()" >
+=
+<input type = "text" id = "result" >
+
+
+<script>
+
+function operation(){
+
+
+
+	var op1 = document.getElementById("first_operand").value;
+	var op2 = document.getElementById("second_operand").value;
+	
+
+	var e = document.getElementById("operator_list");
+	var operator = e.options[e.selectedIndex].text;
+	
+	var res;
+	switch(operator){
+	case '+' : res = parseFloat(op1) + parseFloat(op2);break;
+	case '-' :  res = parseFloat(op1) - parseFloat(op2);break;
+	case '*' : res = parseFloat(op1) * parseFloat(op2);break;
+	case '/' : res = parseFloat(op1) / parseFloat(op2);break;
+	}
+	
+	document.getElementById("result").value = res;
+	
+}
+
+</script>
+
+<body>
+</html>
+
+

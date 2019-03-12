@@ -1,0 +1,29 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+	Enter text here:<input type = "text" id = "text_enter">&nbsp
+	<input type = "button" id = "clear" value="clear">
+	<br><br>
+	<p id = "destination_para" ></p>
+
+	
+	<script>
+	$(document).ready(function(){
+	
+		$("#text_enter").keyup(function(){		
+			var str = $("#text_enter").val()
+			$("#destination_para").append(str[str.length-1]);
+		});
+		
+		$("#clear").click(function(){
+			$("#text_enter").val("");
+		});
+		
+	});
+	</script>
+</body>
+</html>

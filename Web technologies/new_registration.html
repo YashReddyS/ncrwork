@@ -1,0 +1,49 @@
+<html>
+<head>
+
+</head>
+<body>
+
+<button type = 'submit' name = 'new registration' id = '1' onclick = 'addForm()'>New registration</button>
+
+<!-- <form id = "registration">
+Username:<input type = 'text' id = "name" name = 'username'>
+Password:<input type = 'password' id = "password" name = 'password'>
+<input type = 'submit' id = 'submit' name = 'submit'>
+</form>  -->
+
+
+<script>
+
+function addForm(){
+
+var node = document.createElement("form");
+
+node.setAttribute("id","registration")
+
+var username = document.createTextNode("Username"); 
+var password = document.createTextNode("Password"); 
+var button = document.createElement("input");
+
+var username_field = document.createElement("input");                              
+var password_field = document.createElement("input");
+
+username_field.setAttribute("type","text");
+password_field.setAttribute("type","password");
+button.setAttribute("type","submit");
+
+node.appendChild(username);
+node.appendChild(username_field);
+node.appendChild(password);
+node.appendChild(password_field);
+node.appendChild(button);
+                              
+document.body.appendChild(node); 
+
+}
+
+</script>
+
+</body>
+
+</html>
