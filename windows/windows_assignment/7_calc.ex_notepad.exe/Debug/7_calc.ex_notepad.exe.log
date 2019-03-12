@@ -1,0 +1,12 @@
+﻿  7_calc.ex_notepad.exe.cpp
+c:\users\dell\desktop\ncrwork\windows\windows_assignment\7_calc.ex_notepad.exe\7_calc.ex_notepad.exe.cpp(22): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'TCHAR *'
+  c:\users\dell\desktop\ncrwork\windows\windows_assignment\7_calc.ex_notepad.exe\7_calc.ex_notepad.exe.cpp(22): note: consider using '%ls' in the format string
+  c:\users\dell\desktop\ncrwork\windows\windows_assignment\7_calc.ex_notepad.exe\7_calc.ex_notepad.exe.cpp(22): note: consider using '%lls' in the format string
+  c:\users\dell\desktop\ncrwork\windows\windows_assignment\7_calc.ex_notepad.exe\7_calc.ex_notepad.exe.cpp(22): note: consider using '%Ls' in the format string
+  c:\users\dell\desktop\ncrwork\windows\windows_assignment\7_calc.ex_notepad.exe\7_calc.ex_notepad.exe.cpp(22): note: consider using '%ws' in the format string
+c:\users\dell\desktop\ncrwork\windows\windows_assignment\7_calc.ex_notepad.exe\7_calc.ex_notepad.exe.cpp(23): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'TCHAR *'
+  c:\users\dell\desktop\ncrwork\windows\windows_assignment\7_calc.ex_notepad.exe\7_calc.ex_notepad.exe.cpp(23): note: consider using '%ls' in the format string
+  c:\users\dell\desktop\ncrwork\windows\windows_assignment\7_calc.ex_notepad.exe\7_calc.ex_notepad.exe.cpp(23): note: consider using '%lls' in the format string
+  c:\users\dell\desktop\ncrwork\windows\windows_assignment\7_calc.ex_notepad.exe\7_calc.ex_notepad.exe.cpp(23): note: consider using '%Ls' in the format string
+  c:\users\dell\desktop\ncrwork\windows\windows_assignment\7_calc.ex_notepad.exe\7_calc.ex_notepad.exe.cpp(23): note: consider using '%ws' in the format string
+  7_calc.ex_notepad.exe.vcxproj -> C:\Users\DELL\Desktop\ncrwork\windows\windows_assignment\Debug\7_calc.ex_notepad.exe.exe

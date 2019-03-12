@@ -1,0 +1,5 @@
+﻿D:\vs\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (9.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  pch.cpp
+  9.cpp
+c:\users\dell\desktop\windows\9\9\9.cpp(42): warning C4302: 'type cast': truncation from 'HANDLE' to 'TCHAR'
+  9.vcxproj -> C:\Users\DELL\Desktop\ncrwork\windows\windows_assignment\Debug\10_inheritHandle.exe

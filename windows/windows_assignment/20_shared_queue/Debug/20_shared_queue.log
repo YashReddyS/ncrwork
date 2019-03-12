@@ -1,0 +1,11 @@
+﻿  20_shared_queue.cpp
+c:\users\dell\desktop\ncrwork\windows\13_thread_suspended\20_shared_queue\20_shared_queue.cpp(44): error C2065: 'THREAD_COUNT': undeclared identifier
+c:\users\dell\desktop\ncrwork\windows\13_thread_suspended\20_shared_queue\20_shared_queue.cpp(46): error C2065: 'hThread': undeclared identifier
+c:\users\dell\desktop\ncrwork\windows\13_thread_suspended\20_shared_queue\20_shared_queue.cpp(50): error C2065: 'pDataArray': undeclared identifier
+c:\users\dell\desktop\ncrwork\windows\13_thread_suspended\20_shared_queue\20_shared_queue.cpp(52): error C2065: 'dwThreadIdArray': undeclared identifier
+c:\users\dell\desktop\ncrwork\windows\13_thread_suspended\20_shared_queue\20_shared_queue.cpp(46): error C2660: 'CreateThread': function does not take 4 arguments
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\processthreadsapi.h(170): note: see declaration of 'CreateThread'
+c:\users\dell\desktop\ncrwork\windows\13_thread_suspended\20_shared_queue\20_shared_queue.cpp(55): error C2065: 'THREAD_COUNT': undeclared identifier
+c:\users\dell\desktop\ncrwork\windows\13_thread_suspended\20_shared_queue\20_shared_queue.cpp(55): error C2065: 'hThread': undeclared identifier
+c:\users\dell\desktop\ncrwork\windows\13_thread_suspended\20_shared_queue\20_shared_queue.cpp(58): error C2065: 'iCriticalSectionData': undeclared identifier
+c:\users\dell\desktop\ncrwork\windows\13_thread_suspended\20_shared_queue\20_shared_queue.cpp(65): error C2065: 'iCriticalSectionData': undeclared identifier

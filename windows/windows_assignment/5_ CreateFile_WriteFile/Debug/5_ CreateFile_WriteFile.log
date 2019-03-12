@@ -1,0 +1,8 @@
+﻿  pch.cpp
+  5_ CreateFile_WriteFile.cpp
+c:\users\dell\desktop\ncrwork\windows\windows_assignment\5_ createfile_writefile\5_ createfile_writefile.cpp(29): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: see declaration of 'scanf'
+c:\users\dell\desktop\ncrwork\windows\windows_assignment\5_ createfile_writefile\5_ createfile_writefile.cpp(47): error C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(2263): note: see declaration of 'sscanf'
+c:\users\dell\desktop\ncrwork\windows\windows_assignment\5_ createfile_writefile\5_ createfile_writefile.cpp(52): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: see declaration of 'scanf'
