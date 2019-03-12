@@ -1,0 +1,5 @@
+﻿  Source.c
+c:\users\dell\desktop\ncrwork\assesment programs(3)\assesment programs(3)\source.c(14): warning C4013: 'gets' undefined; assuming extern returning int
+c:\users\dell\desktop\ncrwork\assesment programs(3)\assesment programs(3)\source.c(34): warning C4013: 'strlen' undefined; assuming extern returning int
+c:\users\dell\desktop\ncrwork\assesment programs(3)\assesment programs(3)\source.c(48): warning C4013: 'are_valid_chars' undefined; assuming extern returning int
+  assesment programs(3).vcxproj -> C:\Users\DELL\Desktop\ncrwork\assesment programs(3)\Debug\expand string.exe

@@ -1,0 +1,8 @@
+﻿  Source.cpp
+c:\users\dell\desktop\ncrwork\assesment programs(3)\expression evaluation\source.cpp(106): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\desktop\ncrwork\assesment programs(3)\expression evaluation\source.cpp(130): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\desktop\ncrwork\assesment programs(3)\expression evaluation\source.cpp(182): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\desktop\ncrwork\assesment programs(3)\expression evaluation\source.cpp(230): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\desktop\ncrwork\assesment programs(3)\expression evaluation\source.cpp(159): warning C4715: 'operation': not all control paths return a value
+c:\users\dell\desktop\ncrwork\assesment programs(3)\expression evaluation\source.cpp(174): warning C4715: 'getPrecedence': not all control paths return a value
+  expression evaluation.vcxproj -> C:\Users\DELL\Desktop\ncrwork\assesment programs(3)\Debug\expression evaluation.exe
