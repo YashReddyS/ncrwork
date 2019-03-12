@@ -1,3 +1,3 @@
 ﻿  Source.cpp
-c:\users\dell\desktop\ncrwork\data structures\double linked list\double linked list\source.cpp(243): warning C4101: 'e': unreferenced local variable
-  double linked list.vcxproj -> C:\Users\DELL\Desktop\ncrwork\data structures\double linked list\Debug\double linked list.exe
+c:\users\dell\desktop\ncrwork\data structures\linked lists\double linked list\double linked list\source.cpp(246): warning C4101: 'e': unreferenced local variable
+  double linked list.vcxproj -> C:\Users\DELL\Desktop\ncrwork\data structures\Linked lists\double linked list\Debug\double linked list.exe

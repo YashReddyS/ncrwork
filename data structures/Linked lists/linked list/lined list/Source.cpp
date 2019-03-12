@@ -3,17 +3,13 @@
 using namespace std;
 
 struct node {
-
 	int data;
 	struct node *next;
-
 };
 
 class linkedList {
 
 	struct node *start;
-
-
 public:
 	linkedList() {
 		start = NULL;
@@ -162,7 +158,6 @@ int linkedList::deleteLast() {
 	}
 	else
 		cout << "list is empty";
-
 	return x;
 }
 

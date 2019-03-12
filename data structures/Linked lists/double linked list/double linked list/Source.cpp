@@ -9,6 +9,7 @@ struct node
 class dlist
 {
 	struct node *start;
+
 public:
 	dlist()
 	{
@@ -98,6 +99,7 @@ void dlist::insertAfter(int k, int e)
 		{
 			temp = new node;
 			temp->data = e;
+			cur->next->prev = temp;
 			temp->next = cur->next;
 			temp->prev = cur;
 			cur->next = temp;
@@ -134,10 +136,11 @@ void dlist::insertBefore(int k,int e)
 			if (cur->next != NULL)
 			{
 				temp = new node;
-				temp->next = cur->next;
-				cur->next = temp;
-				temp->prev = cur;
 				temp->data = e;
+				cur->next->prev = temp;
+				temp->next = cur->next;
+				temp->prev = cur;
+				cur->next = temp;
 			}
 			else
 				cout << endl << "no such element" << endl;

@@ -95,7 +95,7 @@ int getPrecedence(char a) {
 int main() {
 
 	stack s(20);
-	char c[30] = "a+(b/c-(d*f))+g-h";
+	char c[30] = "(a+b*c)";
 
 
 
