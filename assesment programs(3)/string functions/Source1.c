@@ -1,19 +1,21 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-int strlen1(char *s) {
+int strlen1(char *exp) {
 	int count = 0;
-	while (s[count++] != '\0');
+
+	while (exp[count++] != '\0');
+
 	return count-1;
 }
 void strrev1(char *str) {
 
-	char *p1, *p2;
+	char *c1, *c2;
 	char temp;
-	for (p1 = str, p2 = str + strlen(str) - 1; p1 < p2; p1++, p2--) {
-		temp = *p1;
-		*p1 = *p2;
-		*p2 = temp;
+	for (c1 = str, c2 = str + strlen1(str) - 1; c1 < c2; c1++, c2--) {
+		temp = *c1;
+		*c1 = *c2;
+		*c2 = temp;
 	}
 
 }
@@ -48,18 +50,30 @@ int strcmp1(char *s1, char *s2) {
 
 int main()
 {
-	int choice;
-
-	char str1[50];
-	char str2[50];
-
+	
 	while (1) {
 
-		int choice;
+		char *str1;
+		char *str2;
+
+		printf_s("Enter length of 1st string:");
+		int str1_length;
+		scanf_s("%d",&str1_length);
+		getchar();
+		str1 = (char *)malloc((str1_length+1) * sizeof(char));
 		printf_s("Enter 1st string:");
 		gets(str1);
+		printf_s("test %s",str1);
+
+		printf_s("Enter length of 2nd string:");
+		int str2_length;
+		scanf_s("%d", &str2_length);
+		getchar();
+		str2 = (char *)malloc((str2_length+1) * sizeof(char));
 		printf_s("Enter 2nd string:");
 		gets(str2);
+
+		system("cls");
 
 		printf_s("--- enter Your Choice ---\n");
 		printf_s("1.String Compare\n");
@@ -68,8 +82,9 @@ int main()
 		printf_s("4.String Copy\n");
 		printf_s("5.String length\n");
 		printf_s("6.Exit\n");
-		printf_s("choice:");
+		printf_s("\nchoice:");
 
+		int choice;
 		scanf_s("%d",&choice);
 
 		switch (choice)
@@ -88,13 +103,16 @@ int main()
 
 		getchar();
 
-		printf_s("Press 'Y' to continue,any other to exit:");
-		if ('y' == getchar()) {
-			getchar();
-			system("cls");
-		}
-		else
+		free(str1);
+		free(str2);
+
+		printf_s("Press 'E' to exit,any other key to continue:");
+		if ('e' == getchar()) {
 			exit(0);
+		}
+
+		system("cls");
+			
 	}
 
 	

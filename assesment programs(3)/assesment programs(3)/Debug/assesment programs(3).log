@@ -1,6 +1,6 @@
 ﻿D:\vs\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (expand string.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   Source.c
-c:\users\dell\desktop\ncrwork\assesment programs(3)\assesment programs(3)\source.c(14): warning C4013: 'gets' undefined; assuming extern returning int
-c:\users\dell\desktop\ncrwork\assesment programs(3)\assesment programs(3)\source.c(35): warning C4013: 'strlen' undefined; assuming extern returning int
-c:\users\dell\desktop\ncrwork\assesment programs(3)\assesment programs(3)\source.c(49): warning C4013: 'are_valid_chars' undefined; assuming extern returning int
+c:\users\dell\desktop\ncrwork\assesment programs(3)\assesment programs(3)\source.c(21): warning C4013: 'gets' undefined; assuming extern returning int
+c:\users\dell\desktop\ncrwork\assesment programs(3)\assesment programs(3)\source.c(45): warning C4013: 'strlen' undefined; assuming extern returning int
+c:\users\dell\desktop\ncrwork\assesment programs(3)\assesment programs(3)\source.c(66): warning C4013: 'are_valid_chars' undefined; assuming extern returning int
   assesment programs(3).vcxproj -> C:\Users\DELL\Desktop\ncrwork\assesment programs(3)\Debug\assesment programs(3).exe

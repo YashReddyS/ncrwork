@@ -1,6 +1,5 @@
 ﻿  Source1.c
-c:\users\dell\desktop\ncrwork\assesment programs(3)\string functions\source1.c(13): warning C4013: 'strlen' undefined; assuming extern returning int
-c:\users\dell\desktop\ncrwork\assesment programs(3)\string functions\source1.c(36): warning C4101: 'ret': unreferenced local variable
-c:\users\dell\desktop\ncrwork\assesment programs(3)\string functions\source1.c(60): warning C4013: 'gets' undefined; assuming extern returning int
-c:\users\dell\desktop\ncrwork\assesment programs(3)\string functions\source1.c(51): warning C4101: 'choice': unreferenced local variable
+c:\users\dell\desktop\ncrwork\assesment programs(3)\string functions\source1.c(31): warning C4013: 'strlen' undefined; assuming extern returning int
+c:\users\dell\desktop\ncrwork\assesment programs(3)\string functions\source1.c(38): warning C4101: 'ret': unreferenced local variable
+c:\users\dell\desktop\ncrwork\assesment programs(3)\string functions\source1.c(65): warning C4013: 'gets' undefined; assuming extern returning int
   string functions.vcxproj -> C:\Users\DELL\Desktop\ncrwork\assesment programs(3)\Debug\string functions.exe
